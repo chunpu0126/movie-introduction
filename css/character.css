@@ -1,0 +1,71 @@
+.character_h1 {
+  background-color: rgb(161, 233, 255);
+}
+
+.character_h1 h1{
+  font-family: 'Noto Serif JP', sans-serif;
+  margin: 0px 638px;
+  padding: 15px 0;
+}
+
+.character_content{
+  max-width: 50%;
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.character_flex h1{
+  font-weight: bold;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 3px solid;
+  width: 350px;
+}
+
+.character_flex .font_1{
+  font-size: 110%;
+  padding: 10px 0;
+  text-align: center;
+  width: fit-content;
+  border-bottom: 3px solid;
+}
+
+.character_flex .font_2{
+  font-size: 137%;
+  padding: 9.5px 0;
+  text-align: center;
+  width: max-content;
+  border-bottom: 3px solid;
+}
+
+.character_flex .font_3{
+  font-size: 128%;
+  padding: 11.5px 0;
+  text-align: center;
+  width: fit-content;
+  border-bottom: 3px solid;
+}
+
+.character_flex p{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  margin-top: 15px;  
+  width: 360px;
+}
+
+.character_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.character_flex img{
+  height: 200px;
+  width: 350px;
+}

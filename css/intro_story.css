@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+
+body{
+  background-image:
+  url("../images/top_mystiaItem.png"),
+  url("../images/topNathalieItem.png");
+
+
+  background-position:
+    /* 1枚目の背景画像の表示位置 */
+    -90px 100px,
+    /* 2枚目の背景画像の表示位置 */
+    1140px 800px;
+    /* 3枚目の景画像の表示位置 */
+  background-repeat:
+  /* 1枚目の背景画像の設定 */
+    no-repeat,
+  /* 2枚目の背景画像の設定 */
+    no-repeat;
+}
+
+.intro_story_content .intro_story_h1{
+  font-family: 'Noto Serif JP', sans-serif;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  background-color:rgb(153, 255, 0) ;
+}
+
+.intro_story_content .intro_story_h1{
+  color: rgb(0, 0, 0);
+}
+
+.intro_story_h1 h1 a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.intro_story_content .intro_story_h1 h1 .intro_h1{
+  color: white;
+}
+
+.intro_story_content .intro_story_h1 h1 .story_h1{
+  color: white;
+}
+
+.intro_content{
+  margin: 30px auto;
+  width: 50%;
+}
+
+.story_content{
+  margin: 0 auto;;
+  width: 50%;
+}
+
+
+.intro_story_content{
+  margin: 0% auto;
+  text-align: center;
+  width: 100%;
+}
+
+.intro_content p{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:40px;
+}
+
+.story_content p{
+  width: fit-content;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-weight: bold;
+  margin: 30px 0;
+  font-size: 25px;
+  line-height:50px;
+}

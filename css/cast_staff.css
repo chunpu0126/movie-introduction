@@ -1,0 +1,107 @@
+body {
+  background-image:
+  url("../images/bgwh07.png"),
+  url("../images/bgwh04.png");
+
+  background-size: 550px,550px;
+
+  background-position:
+    /* 1枚目の背景画像の表示位置 */
+    0px 123px,
+    /* 2枚目の背景画像の表示位置 */
+    980px 930px;
+    /* 3枚目の景画像の表示位置 */
+  background-repeat:
+  /* 1枚目の背景画像の設定 */
+    no-repeat,
+  /* 2枚目の背景画像の設定 */
+    no-repeat;
+}
+
+.staff_h1{
+  margin: 0 690px;
+  width: 100px;
+}
+
+.cast_h1 {
+  margin: 0 710px;
+  width: 100px;
+}
+
+.staff_h1 h1{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 40px;
+}
+
+.cast_h1 h1{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 40px;
+}
+
+.staff_cast_h1 {
+  margin-bottom: 30px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: rgb(255, 255, 0,0.6);
+}
+
+.cast_staff{
+  text-align: center;
+}
+
+.staff_all{
+  margin: 0px 0;
+}
+
+.staff_flex{
+  margin: 15px 0;
+  width: 300px;
+}
+
+.staff_content{
+  max-width: 40%;
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.staff_flex h1{
+  margin: 0 auto;
+  width: max-content;
+  font-size: 18px;
+}
+
+.staff_flex p{
+ font-size: 12px;
+}
+
+.cast_all{
+  margin: 20px 0;
+}
+
+
+.cast_content{
+  max-width: 48%;
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cast_flex{
+  margin: 15px 0;
+  width: 290px;
+}
+
+.cast_flex h1{
+  font-size: 18px;
+ }
+ 
+ .cast_content p{
+  margin: 0 auto;
+  width: max-content;
+  font-size: 12px;
+ }

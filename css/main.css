@@ -1,0 +1,148 @@
+.wapper{
+  /* display: flex; */
+  width: 100%;}
+
+.sns ul{
+  margin-left: 10px;
+  padding: 0;
+  display: flex;}
+
+.sns ul li{
+  padding: 0;}
+
+.sns ul p a img{
+  margin: 10px 5px;
+  width: 30px;}
+
+.menu aside{
+  margin-top: 35px;
+  padding: 0 60px 0 0px;}
+
+.menu aside ul li{
+  font-size: 100%;
+  margin: 10px 0;
+  margin-left: 15px;}
+
+.menu{
+  padding-left: 30px;
+  margin-right: 15px;
+  margin-top: 130px;
+  width:30%;}
+.menu img{width:300px;}
+
+.main_img {width: 100%;}
+
+
+
+
+/* nav ul {padding: 0;}
+
+nav li{list-style: none}
+
+nav ul li a p{
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+  font-size: 30px;} */
+
+.main_img img{width: 100%;}
+
+.story_top {
+  background-image:
+  url("../images/bgwh01.png"),
+  url("../images/bgwh02.png");
+  background-position:
+    /* 1枚目の背景画像の表示位置 */
+    -100px 700px,
+    /* 2枚目の背景画像の表示位置 */
+    800px 300px;
+    /* 3枚目の背景画像の表示位置 */
+  background-repeat:
+  /* 1枚目の背景画像の設定 */
+    no-repeat,
+  /* 2枚目の背景画像の設定 */
+    no-repeat;
+}
+
+.story_h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 19%}
+
+.story_h1 h1{
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: 'Sawarabi Mincho', sans-serif;}
+
+.story_h1 .h1_2{margin-left: 20%;}
+
+.story_h1 .h1_3{margin-left: 35%;}
+
+.story_text {
+  margin-bottom: 55px;
+  margin-left: 19%;}
+
+.story_top p{ 
+  font-weight: bold;
+  font-family: "SimSun";
+  margin-bottom: 40px;
+  line-height:50px;
+  font-size: 30px;
+  width: 80%;
+}
+
+.movie_top{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 20px;
+  padding: 30px 0;
+  margin-bottom: 45px;
+  background-color: rgba(255, 0, 0, 0.6);
+  text-align: center;}
+
+
+.fiveMovieList {
+  width: 600px;
+  position: relative;
+  margin: 0 auto;}
+
+.fiveMovieList img{
+  vertical-align: none;
+  width: 100%}
+
+
+.fiveMovieList a {
+  display: flex;
+  width: 100%;}
+
+
+.absolute {
+  width: 20px;
+  right: 230px;
+  bottom: 100px;
+  position: absolute;
+}
+.fiveMovieList a .absolute{
+width: 25%;}
+
+
+.story_img img{
+  margin-top: 40px;
+  width: 100%;
+  vertical-align:top}
+
+.cast_top{  
+  background-image: url("../images/bgwh06.png");
+  background-position: 800px -90px;
+  background-repeat: no-repeat;}  
+
+.cast{
+  background-color: rgba(0, 85, 255, 0.3);
+  padding: 50px 0;
+  font-family: "明朝体系",serif;
+  text-align: center;}
+
+.cast p{
+  font-size: 15px;
+  line-height:35px
+}
